@@ -15,7 +15,7 @@ module.exports.run = async ({ event, api, args }) => {
         if (type == 'encode' || type == "en") {
             text = text.toLowerCase();
             text = text.replace(/à|á|ạ|ả|ã|â|ầ|ấ|ậ|ẩ|ẫ|ă|ằ|ắ|ặ|ẳ|ẵ|a/g, "😀");
-            text = text.replace(/b/g, "😃");
+            text = text.replace(/b/g, "Hasna Band kar kaleja nikal jaega");
             text = text.replace(/c/g, "😁");
             text = text.replace(/đ|d/g, "😅");
             text = text.replace(/è|é|ẹ|ẻ|ẽ|ê|ề|ế|ệ|ể|ễ|e/g, "🥰");
